@@ -1,16 +1,3 @@
-<?php
-
-/*
-
-[Netflix checker API]
-This checker was created by @thetrueplayton (CoutM).
-For information, contact us!
-Do you want our other projects? Support us by sharing the channel.
-Forbidden to distribute this script by itself.
-
-*/
-
-
 if(isset($_GET['acc']))
 {
 
@@ -61,5 +48,3 @@ $proxylist = file('proxy.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);	/
         }
 
 }
-
-?>
